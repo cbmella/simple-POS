@@ -1,0 +1,110 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "products",
+    "collectionId": "bf4f19ba-57df-46bd-a7f1-260773e92251",
+    "dateExported": "2024-10-01T18:01:29.237Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "68232fb4-5c8a-4580-904e-301d364ed060",
+            "colId": "bf4f19ba-57df-46bd-a7f1-260773e92251",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/products",
+            "url": "http://localhost/simple-POS-api/public/products",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-10-01T17:26:13.435Z",
+            "modified": "2024-10-01T17:28:23.227Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "test"
+                    },
+                    {
+                        "name": "sku",
+                        "value": "asdasdasd"
+                    },
+                    {
+                        "name": "price",
+                        "value": "1112131"
+                    },
+                    {
+                        "name": "quantity",
+                        "value": "12312"
+                    },
+                    {
+                        "name": "category_id",
+                        "value": "2"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "f5ecf214-7aef-4687-b93d-f0fdad51b0f1",
+            "colId": "bf4f19ba-57df-46bd-a7f1-260773e92251",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/products/{id}",
+            "url": "http://localhost/simple-POS-api/public/products/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-01T17:26:13.436Z",
+            "modified": "2024-10-01T17:28:38.902Z",
+            "headers": []
+        },
+        {
+            "_id": "bf132346-502f-4ddf-9afd-f6cccedff67f",
+            "colId": "bf4f19ba-57df-46bd-a7f1-260773e92251",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/products",
+            "url": "http://localhost/simple-POS-api/public/products",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-10-01T17:26:13.437Z",
+            "modified": "2024-10-01T17:27:23.589Z",
+            "headers": []
+        },
+        {
+            "_id": "6fcfd5da-3d81-4513-ab63-1a5c3c321f94",
+            "colId": "bf4f19ba-57df-46bd-a7f1-260773e92251",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/products/{id}",
+            "url": "http://localhost/simple-POS-api/public/products/2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-10-01T17:26:13.438Z",
+            "modified": "2024-10-01T18:01:10.101Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"qweqweasd\",\r\n  \"sku\": 13232\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "4c5c57d1-0f69-41f7-830f-6bb13e4bc4c3",
+            "colId": "bf4f19ba-57df-46bd-a7f1-260773e92251",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/products/{id}",
+            "url": "http://localhost/simple-POS-api/public/products/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-10-01T17:26:13.439Z",
+            "modified": "2024-10-01T17:27:48.428Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "gIfYOaJ41oiKKnwCqVLEVfLDqORUNIhxvv_WH0RhNauLlNKC2z6axMAtprZDKuYfwq43KMyV_C901192j9MGXg"
+}

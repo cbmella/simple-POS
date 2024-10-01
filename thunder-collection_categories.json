@@ -1,0 +1,106 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "categories",
+    "collectionId": "d86ffbe4-02af-4e28-8dcd-2e799cda4b74",
+    "dateExported": "2024-10-01T18:01:21.630Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6d800052-a0e4-4550-996e-0ca40c4bc9aa",
+            "colId": "d86ffbe4-02af-4e28-8dcd-2e799cda4b74",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/categories",
+            "url": "http://localhost/simple-POS-api/public/categories",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-10-01T17:16:19.921Z",
+            "modified": "2024-10-01T17:24:39.025Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "test"
+                    },
+                    {
+                        "name": "description",
+                        "value": "asdasdasd"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "3a459426-9883-4cdf-99c3-197257bb2b49",
+            "colId": "d86ffbe4-02af-4e28-8dcd-2e799cda4b74",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/categories/{id}",
+            "url": "http://localhost/simple-POS-api/public/categories/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-01T17:19:06.042Z",
+            "modified": "2024-10-01T17:21:30.260Z",
+            "headers": []
+        },
+        {
+            "_id": "d49196d4-69b7-493a-9a59-c271a6754b8c",
+            "colId": "d86ffbe4-02af-4e28-8dcd-2e799cda4b74",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/categories",
+            "url": "http://localhost/simple-POS-api/public/categories",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-10-01T17:20:08.586Z",
+            "modified": "2024-10-01T17:20:08.586Z",
+            "headers": []
+        },
+        {
+            "_id": "2f199892-3dcc-4e2c-b67b-45f87e933780",
+            "colId": "d86ffbe4-02af-4e28-8dcd-2e799cda4b74",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/categories/{id}",
+            "url": "http://localhost/simple-POS-api/public/categories/2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-10-01T17:21:55.922Z",
+            "modified": "2024-10-01T17:59:51.070Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"qweqwe\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "9892af3b-6c60-44d6-b9dc-ba019fc5dbe4",
+            "colId": "d86ffbe4-02af-4e28-8dcd-2e799cda4b74",
+            "containerId": "",
+            "name": "http://localhost/simple-POS-api/public/categories/{id}",
+            "url": "http://localhost/simple-POS-api/public/categories/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-10-01T17:23:50.738Z",
+            "modified": "2024-10-01T17:24:05.838Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "bfnRHuNfZMG9-THnpF17ySrKjORd6pGXYdAdZtjaySl9pgdRgV8HgGlDF9B0bD1k0AJVQ1MsqQsB-4fNlH2cBw"
+}
